@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "配置文件 1": {
+      "commandName": "Executable",
+      "executablePath": "D:\\clivil3d\\AutoCAD 2023\\acad.exe",
+      "commandLineArgs": "/nologo"
+    }
+  }
+}

@@ -1,0 +1,896 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\52465\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.6.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\52465\.nuget\packages\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(Language)' == 'C#' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Algorithms\Graph\Graph.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Algorithms\Graph\Graph.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\Algorithms\Graph\Graph.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Algorithms\Graph\IGraph.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Algorithms\Graph\IGraph.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\Algorithms\Graph\IGraph.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Algorithms\QuadTree\QuadEntity.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Algorithms\QuadTree\QuadEntity.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\Algorithms\QuadTree\QuadEntity.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Algorithms\QuadTree\QuadTree.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Algorithms\QuadTree\QuadTree.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\Algorithms\QuadTree\QuadTree.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Algorithms\QuadTree\QuadTreeEvn.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Algorithms\QuadTree\QuadTreeEvn.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\Algorithms\QuadTree\QuadTreeEvn.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Algorithms\QuadTree\QuadTreeNode.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Algorithms\QuadTree\QuadTreeNode.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\Algorithms\QuadTree\QuadTreeNode.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Algorithms\QuadTree\QuadTreeSelectMode.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Algorithms\QuadTree\QuadTreeSelectMode.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\Algorithms\QuadTree\QuadTreeSelectMode.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Algorithms\QuadTree\Rect.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Algorithms\QuadTree\Rect.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\Algorithms\QuadTree\Rect.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\AutoReg\AcadEMR.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\AutoReg\AcadEMR.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\AutoReg\AcadEMR.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\AutoReg\AssemInfo.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\AutoReg\AssemInfo.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\AutoReg\AssemInfo.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\AutoReg\AutoLoad.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\AutoReg\AutoLoad.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\AutoReg\AutoLoad.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\AutoReg\AutoRegAssem.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\AutoReg\AutoRegAssem.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\AutoReg\AutoRegAssem.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\AutoReg\IAutoGo.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\AutoReg\IAutoGo.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\AutoReg\IAutoGo.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\AutoReg\MethodInfoHelper.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\AutoReg\MethodInfoHelper.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\AutoReg\MethodInfoHelper.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\CadVersion\AcadVersion.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\CadVersion\AcadVersion.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\CadVersion\AcadVersion.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\CadVersion\CadVersion.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\CadVersion\CadVersion.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\CadVersion\CadVersion.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Copyclip\BitmapTool.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Copyclip\BitmapTool.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\Copyclip\BitmapTool.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Copyclip\EmfTool.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Copyclip\EmfTool.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\Copyclip\EmfTool.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Copyclip\TagClipboardInfo.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Copyclip\TagClipboardInfo.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\Copyclip\TagClipboardInfo.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\AttachmentPointHelper.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\AttachmentPointHelper.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\AttachmentPointHelper.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\BulgeVertexWidth.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\BulgeVertexWidth.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\BulgeVertexWidth.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\CheckFactory.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\CheckFactory.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\CheckFactory.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\CollectionEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\CollectionEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\CollectionEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Curve2dEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Curve2dEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\Curve2dEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Curve3dEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Curve3dEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\Curve3dEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\CurveEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\CurveEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\CurveEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\DBDictionaryEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\DBDictionaryEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\DBDictionaryEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\DBObjectEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\DBObjectEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\DBObjectEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\DBTransEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\DBTransEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\DBTransEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\DatabaseEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\DatabaseEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\DatabaseEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\DwgMark.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\DwgMark.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\DwgMark.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\EditorEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\EditorEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\EditorEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Entity\ArcEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Entity\ArcEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\Entity\ArcEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Entity\BlockReferenceEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Entity\BlockReferenceEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\Entity\BlockReferenceEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Entity\BoundingInfo.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Entity\BoundingInfo.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\Entity\BoundingInfo.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Entity\CircleEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Entity\CircleEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\Entity\CircleEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Entity\DBTextEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Entity\DBTextEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\Entity\DBTextEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Entity\EntityBoundingInfo.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Entity\EntityBoundingInfo.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\Entity\EntityBoundingInfo.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Entity\EntityEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Entity\EntityEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\Entity\EntityEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Entity\MTextEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Entity\MTextEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\Entity\MTextEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Entity\PolylineEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Entity\PolylineEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\Entity\PolylineEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Enums.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Enums.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\Enums.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\ErrorInfoEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\ErrorInfoEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\ErrorInfoEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Filer\DwgFiler.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Filer\DwgFiler.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\Filer\DwgFiler.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Filer\DwgFilerEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Filer\DwgFilerEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\Filer\DwgFilerEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Filer\DxfFiler.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Filer\DxfFiler.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\Filer\DxfFiler.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\GeometryEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\GeometryEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\GeometryEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\IdleAction.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\IdleAction.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\IdleAction.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Jig\JigEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Jig\JigEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\Jig\JigEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Jig\JigExTransient.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Jig\JigExTransient.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\Jig\JigExTransient.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\JsonConverter.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\JsonConverter.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\JsonConverter.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\ObjEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\ObjEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\ObjEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\ObjectIdEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\ObjectIdEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\ObjectIdEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\PointEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\PointEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\PointEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\RedrawEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\RedrawEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\RedrawEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\SelectionSetEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\SelectionSetEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\SelectionSetEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\SingleKeyWordHook.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\SingleKeyWordHook.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\SingleKeyWordHook.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\SymbolTableEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\SymbolTableEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\SymbolTableEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\SymbolTableRecordEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\SymbolTableRecordEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\SymbolTableRecordEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Tools.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\Tools.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\Tools.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\TransactionEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\TransactionEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\TransactionEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\XrefEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\XrefEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\XrefEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\新建填充\HatchConverter.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\新建填充\HatchConverter.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\新建填充\HatchConverter.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\新建填充\HatchEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\新建填充\HatchEx.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\新建填充\HatchEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\新建填充\HatchInfo.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ExtensionMethod\新建填充\HatchInfo.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ExtensionMethod\新建填充\HatchInfo.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\PE\AcadPeInfo.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\PE\AcadPeInfo.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\PE\AcadPeInfo.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\PE\DBmod.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\PE\DBmod.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\PE\DBmod.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\PE\PostCmd.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\PE\PostCmd.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\PE\PostCmd.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\PE\ProgramPE.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\PE\ProgramPE.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\PE\ProgramPE.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ResultData\LispDottedPair.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ResultData\LispDottedPair.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ResultData\LispDottedPair.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ResultData\LispList.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ResultData\LispList.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ResultData\LispList.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ResultData\TypedValueList.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ResultData\TypedValueList.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ResultData\TypedValueList.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ResultData\XRecordDataList.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ResultData\XRecordDataList.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ResultData\XRecordDataList.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ResultData\XdataList.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\ResultData\XdataList.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\ResultData\XdataList.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Runtime\DBTrans.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Runtime\DBTrans.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\Runtime\DBTrans.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Runtime\Env.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Runtime\Env.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\Runtime\Env.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Runtime\SymbolTable.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\Runtime\SymbolTable.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\Runtime\SymbolTable.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\SelectionFilter\OpComp.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\SelectionFilter\OpComp.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\SelectionFilter\OpComp.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\SelectionFilter\OpEqual.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\SelectionFilter\OpEqual.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\SelectionFilter\OpEqual.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\SelectionFilter\OpFilter.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\SelectionFilter\OpFilter.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\SelectionFilter\OpFilter.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\SelectionFilter\OpList.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\SelectionFilter\OpList.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\SelectionFilter\OpList.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\SelectionFilter\OpLogi.cs" Condition="Exists('$(NuGetPackageRoot)ifox.cad.source\0.7.1\contentFiles\cs\any\IFox.CAD.Source\SelectionFilter\OpLogi.cs')">
+      <NuGetPackageId>IFox.CAD.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.CAD.Source\SelectionFilter\OpLogi.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(Language)' == 'C#' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\CLS\Index.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\CLS\Index.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\CLS\Index.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\CLS\Range.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\CLS\Range.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\CLS\Range.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\CLS\RuntimeHelpers.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\CLS\RuntimeHelpers.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\CLS\RuntimeHelpers.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\CLS\TupleElementNamesAttribute.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\CLS\TupleElementNamesAttribute.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\CLS\TupleElementNamesAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\ExpressionTrees\ParameterRebinder.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\ExpressionTrees\ParameterRebinder.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\ExpressionTrees\ParameterRebinder.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\ExpressionTrees\PredicateBuilder.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\ExpressionTrees\PredicateBuilder.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\ExpressionTrees\PredicateBuilder.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\ExpressionTrees\SqlExpressionVisitor.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\ExpressionTrees\SqlExpressionVisitor.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\ExpressionTrees\SqlExpressionVisitor.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\ArrayEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\ArrayEx.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\General\ArrayEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\DebugHelper.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\DebugHelper.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\General\DebugHelper.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\DictEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\DictEx.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\General\DictEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\EnumEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\EnumEx.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\General\EnumEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\IsExternalInit.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\IsExternalInit.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\General\IsExternalInit.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\LinkedHashMap.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\LinkedHashMap.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\General\LinkedHashMap.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\LinkedHashSet.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\LinkedHashSet.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\General\LinkedHashSet.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\LinqEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\LinqEx.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\General\LinqEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\ListEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\ListEx.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\General\ListEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\LoopList.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\LoopList.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\General\LoopList.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\LoopState.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\LoopState.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\General\LoopState.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\MathEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\MathEx.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\General\MathEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\RandomEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\RandomEx.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\General\RandomEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\Timer.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\General\Timer.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\General\Timer.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\Nullable\ArgumentNullEx.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\Nullable\ArgumentNullEx.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\Nullable\ArgumentNullEx.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\Nullable\CallerArgumentExpressionAttribute.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\Nullable\CallerArgumentExpressionAttribute.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\Nullable\CallerArgumentExpressionAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\Nullable\NullableAttributes.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\Nullable\NullableAttributes.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\Nullable\NullableAttributes.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\WindowsAPI\Enums.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\WindowsAPI\Enums.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\WindowsAPI\Enums.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\WindowsAPI\MouseHook.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\WindowsAPI\MouseHook.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\WindowsAPI\MouseHook.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\WindowsAPI\WindowsAPI.cs" Condition="Exists('$(NuGetPackageRoot)ifox.basal.source\0.7.1\contentFiles\cs\any\IFox.Basal.Source\WindowsAPI\WindowsAPI.cs')">
+      <NuGetPackageId>IFox.Basal.Source</NuGetPackageId>
+      <NuGetPackageVersion>0.7.1</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>IFox.Basal.Source\WindowsAPI\WindowsAPI.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgAutoCAD_NET_Model Condition=" '$(PkgAutoCAD_NET_Model)' == '' ">C:\Users\52465\.nuget\packages\autocad.net.model\23.0.0</PkgAutoCAD_NET_Model>
+    <PkgAutoCAD_NET_Core Condition=" '$(PkgAutoCAD_NET_Core)' == '' ">C:\Users\52465\.nuget\packages\autocad.net.core\23.0.0</PkgAutoCAD_NET_Core>
+    <PkgAutoCAD_NET Condition=" '$(PkgAutoCAD_NET)' == '' ">C:\Users\52465\.nuget\packages\autocad.net\23.0.0</PkgAutoCAD_NET>
+  </PropertyGroup>
+</Project>
