@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\mygithubcode\\CADifox-MVVM\\CADIfox_MVVM\\CADIfox_MVVM.csproj": {}
+    "F:\\mygithubcode\\CADifox_MVVM\\CADIfox_MVVM\\CADIfox_MVVM.csproj": {}
   },
   "projects": {
-    "F:\\mygithubcode\\CADifox-MVVM\\CADIfox_MVVM\\CADIfox_MVVM.csproj": {
+    "F:\\mygithubcode\\CADifox_MVVM\\CADIfox_MVVM\\CADIfox_MVVM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\mygithubcode\\CADifox-MVVM\\CADIfox_MVVM\\CADIfox_MVVM.csproj",
+        "projectUniqueName": "F:\\mygithubcode\\CADifox_MVVM\\CADIfox_MVVM\\CADIfox_MVVM.csproj",
         "projectName": "CADIfox_MVVM",
-        "projectPath": "F:\\mygithubcode\\CADifox-MVVM\\CADIfox_MVVM\\CADIfox_MVVM.csproj",
+        "projectPath": "F:\\mygithubcode\\CADifox_MVVM\\CADIfox_MVVM\\CADIfox_MVVM.csproj",
         "packagesPath": "C:\\Users\\52465\\.nuget\\packages\\",
-        "outputPath": "F:\\mygithubcode\\CADifox-MVVM\\CADIfox_MVVM\\obj\\",
+        "outputPath": "F:\\mygithubcode\\CADifox_MVVM\\CADIfox_MVVM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\52465\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,10 @@
               "target": "Package",
               "version": "[23.0.0, )"
             },
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.1, )"
@@ -60,6 +64,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[0.7.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "MediatR.Extensions.Autofac.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.2.0, )"
             },
             "NPOI": {
               "target": "Package",

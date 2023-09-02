@@ -5,6 +5,10 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CADIfox_MVVM", "CADIfox_MVVM.csproj", "{EAD8FC20-DB9C-465D-BBEB-2F6922F28188}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewTest", "..\ViewTest\ViewTest.csproj", "{C70EF137-829B-4C0F-B555-37BC5A523255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadCommandation", "..\CadCommandation\CadCommandation.csproj", "{CD674FEA-05E5-47ED-B20F-B28F051D4887}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		33|Any CPU = 33|Any CPU
@@ -18,6 +22,18 @@ Global
 		{EAD8FC20-DB9C-465D-BBEB-2F6922F28188}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAD8FC20-DB9C-465D-BBEB-2F6922F28188}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAD8FC20-DB9C-465D-BBEB-2F6922F28188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C70EF137-829B-4C0F-B555-37BC5A523255}.33|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70EF137-829B-4C0F-B555-37BC5A523255}.33|Any CPU.Build.0 = Debug|Any CPU
+		{C70EF137-829B-4C0F-B555-37BC5A523255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70EF137-829B-4C0F-B555-37BC5A523255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C70EF137-829B-4C0F-B555-37BC5A523255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C70EF137-829B-4C0F-B555-37BC5A523255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD674FEA-05E5-47ED-B20F-B28F051D4887}.33|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD674FEA-05E5-47ED-B20F-B28F051D4887}.33|Any CPU.Build.0 = Debug|Any CPU
+		{CD674FEA-05E5-47ED-B20F-B28F051D4887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD674FEA-05E5-47ED-B20F-B28F051D4887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD674FEA-05E5-47ED-B20F-B28F051D4887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD674FEA-05E5-47ED-B20F-B28F051D4887}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

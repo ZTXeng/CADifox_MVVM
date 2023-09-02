@@ -71,6 +71,23 @@
           }
         }
       },
+      "Autofac/7.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "BouncyCastle.Cryptography/2.2.1": {
         "type": "package",
         "compile": {
@@ -699,6 +716,54 @@
           }
         }
       },
+      "MediatR/12.1.1": {
+        "type": "package",
+        "dependencies": {
+          "MediatR.Contracts": "[2.0.1, 3.0.0)",
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MediatR.Extensions.Autofac.DependencyInjection/11.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "7.1.0",
+          "MediatR": "12.1.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.Extensions.Autofac.DependencyInjection.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Autofac.DependencyInjection.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -716,6 +781,23 @@
         },
         "build": {
           "buildTransitive/net462/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.IO.RecyclableMemoryStream/2.3.2": {
@@ -886,6 +968,26 @@
           "runtimes/win/lib/net461/System.Configuration.ConfigurationManager.dll": {
             "assetType": "runtime",
             "rid": "win"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/4.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net46/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -1229,6 +1331,27 @@
         "tools/install.ps1"
       ]
     },
+    "Autofac/7.1.0": {
+      "sha512": "XCXmpxhOnuztTTRkzG+8B8KU8SR8WjBYwSntndjlsFR5lM3K/g43r9hUwewIPDBJwDrmZU3TjmNdH6s8IF3VFQ==",
+      "type": "package",
+      "path": "autofac/7.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "autofac.7.1.0.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net6.0/Autofac.dll",
+        "lib/net6.0/Autofac.xml",
+        "lib/net7.0/Autofac.dll",
+        "lib/net7.0/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
     "BouncyCastle.Cryptography/2.2.1": {
       "sha512": "A6Zr52zVqJKt18ZBsTnX0qhG0kwIQftVAjLmszmkiR/trSp8H+xj1gUOzk7XHwaKgyREMSV1v9XaKrBUeIOdvQ==",
       "type": "package",
@@ -1463,6 +1586,50 @@
         "mathnet.numerics.signed.nuspec"
       ]
     },
+    "MediatR/12.1.1": {
+      "sha512": "1AbwzzeS6gn4NdcO6A9LfKS5TXXgAiUQM3J18dREHa7O7TrdCXJ5dNFeRBpzPZY7UWl5Kby+n9pWrPJe3SDiMA==",
+      "type": "package",
+      "path": "mediatr/12.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net6.0/MediatR.dll",
+        "lib/net6.0/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "mediatr.12.1.1.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Contracts/2.0.1": {
+      "sha512": "FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "type": "package",
+      "path": "mediatr.contracts/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.0/MediatR.Contracts.dll",
+        "lib/netstandard2.0/MediatR.Contracts.xml",
+        "mediatr.contracts.2.0.1.nupkg.sha512",
+        "mediatr.contracts.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Autofac.DependencyInjection/11.2.0": {
+      "sha512": "r3DsIUWqVIUnm0nDZFWiNml3x9E04aVOZIYrQDl4P60ivovwD02h28Buef0cw9lSej+Q30no1hWTZvGhpib3HA==",
+      "type": "package",
+      "path": "mediatr.extensions.autofac.dependencyinjection/11.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netstandard2.0/MediatR.Extensions.Autofac.DependencyInjection.dll",
+        "lib/netstandard2.0/MediatR.Extensions.Autofac.DependencyInjection.pdb",
+        "mediatr.extensions.autofac.dependencyinjection.11.2.0.nupkg.sha512",
+        "mediatr.extensions.autofac.dependencyinjection.nuspec"
+      ]
+    },
     "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
       "sha512": "3aeMZ1N0lJoSyzqiP03hqemtb1BijhsJADdobn/4nsMJ8V1H+CrpuduUe4hlRdx+ikBQju1VGjMD1GJ3Sk05Eg==",
       "type": "package",
@@ -1483,6 +1650,31 @@
         "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
         "microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
         "microsoft.bcl.asyncinterfaces.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "sha512": "xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -1755,6 +1947,32 @@
         "system.configuration.configurationmanager.6.0.0.nupkg.sha512",
         "system.configuration.configurationmanager.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Diagnostics.DiagnosticSource/4.7.1": {
+      "sha512": "j81Lovt90PDAq8kLpaJfJKV/rWdWuEk6jfV+MBkee33vzYLEUsy4gXK8laa9V2nZlLM9VM9yA/OOQxxPEJKAMw==",
+      "type": "package",
+      "path": "system.diagnostics.diagnosticsource/4.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net45/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net45/System.Diagnostics.DiagnosticSource.xml",
+        "lib/net46/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net46/System.Diagnostics.DiagnosticSource.xml",
+        "lib/netstandard1.1/System.Diagnostics.DiagnosticSource.dll",
+        "lib/netstandard1.1/System.Diagnostics.DiagnosticSource.xml",
+        "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll",
+        "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.xml",
+        "lib/portable-net45+win8+wpa81/System.Diagnostics.DiagnosticSource.dll",
+        "lib/portable-net45+win8+wpa81/System.Diagnostics.DiagnosticSource.xml",
+        "system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+        "system.diagnostics.diagnosticsource.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.IO.Compression/4.3.0": {
@@ -2320,9 +2538,12 @@
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
       "AutoCAD.NET >= 23.0.0",
+      "Autofac >= 7.1.0",
       "CommunityToolkit.Mvvm >= 8.2.1",
       "IFox.Basal.Source >= 0.7.1",
       "IFox.CAD.Source >= 0.7.1",
+      "MediatR >= 12.1.1",
+      "MediatR.Extensions.Autofac.DependencyInjection >= 11.2.0",
       "NPOI >= 2.6.1"
     ]
   },
@@ -2332,11 +2553,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\mygithubcode\\CADifox-MVVM\\CADIfox_MVVM\\CADIfox_MVVM.csproj",
+      "projectUniqueName": "F:\\mygithubcode\\CADifox_MVVM\\CADIfox_MVVM\\CADIfox_MVVM.csproj",
       "projectName": "CADIfox_MVVM",
-      "projectPath": "F:\\mygithubcode\\CADifox-MVVM\\CADIfox_MVVM\\CADIfox_MVVM.csproj",
+      "projectPath": "F:\\mygithubcode\\CADifox_MVVM\\CADIfox_MVVM\\CADIfox_MVVM.csproj",
       "packagesPath": "C:\\Users\\52465\\.nuget\\packages\\",
-      "outputPath": "F:\\mygithubcode\\CADifox-MVVM\\CADIfox_MVVM\\obj\\",
+      "outputPath": "F:\\mygithubcode\\CADifox_MVVM\\CADIfox_MVVM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\52465\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2370,6 +2591,10 @@
             "target": "Package",
             "version": "[23.0.0, )"
           },
+          "Autofac": {
+            "target": "Package",
+            "version": "[7.1.0, )"
+          },
           "CommunityToolkit.Mvvm": {
             "target": "Package",
             "version": "[8.2.1, )"
@@ -2385,6 +2610,14 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[0.7.1, )"
+          },
+          "MediatR": {
+            "target": "Package",
+            "version": "[12.1.1, )"
+          },
+          "MediatR.Extensions.Autofac.DependencyInjection": {
+            "target": "Package",
+            "version": "[11.2.0, )"
           },
           "NPOI": {
             "target": "Package",

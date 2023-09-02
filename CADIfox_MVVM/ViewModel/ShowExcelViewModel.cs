@@ -8,17 +8,22 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenFileDialog = System.Windows.Forms.OpenFileDialog;
 using DataTable = System.Data.DataTable;
+using CadCommandation.Request;
 
 namespace CADIfox_MVVM.ViewModel
 {
     public class ShowExcelViewModel : ViewModelBase<ShowExcelModel>
     {
         public IRelayCommand FileSelect { get; set; }
+        public IRelayCommand FileTest { get; set; }
+
+
         public ShowExcelViewModel(Document doc)
         {
             Model = new ShowExcelModel();
 
             FileSelect = new RelayCommand(OnFileSelect);
+            FileTest = new RelayCommand(OnFileTest);
         }
 
         public ShowExcelViewModel()
@@ -38,6 +43,12 @@ namespace CADIfox_MVVM.ViewModel
                 Model.DataTables = ExcelToData.ReadExcelDataTbales(Model.FilePath, true);
                 Model.CurrentDataTable = Model.DataTables.First();
             }
+        }
+
+        private async void OnFileTest()
+        {
+            var request = new WritLineRequest();
+            await _mediator.Send(request);
         }
     }
 }

@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\mygithubcode\\CADifox_MVVM\\CadCommandation\\CadCommandation.csproj": {}
+  },
+  "projects": {
+    "F:\\mygithubcode\\CADifox_MVVM\\CadCommandation\\CadCommandation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\mygithubcode\\CADifox_MVVM\\CadCommandation\\CadCommandation.csproj",
+        "projectName": "CadCommandation",
+        "projectPath": "F:\\mygithubcode\\CADifox_MVVM\\CadCommandation\\CadCommandation.csproj",
+        "packagesPath": "C:\\Users\\52465\\.nuget\\packages\\",
+        "outputPath": "F:\\mygithubcode\\CADifox_MVVM\\CadCommandation\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\52465\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

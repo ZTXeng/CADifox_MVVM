@@ -11,6 +11,8 @@
 		<PlatformTarget>x64</PlatformTarget>
 		<RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
 		<Configurations>Debug;Release;33</Configurations>
+		<GenerateDocumentationFile>False</GenerateDocumentationFile>
+		<SignAssembly>False</SignAssembly>
 	</PropertyGroup>
 
 	<PropertyGroup Condition=" '$(Configuration)' == 'Debug'">
@@ -36,6 +38,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Autofac" Version="7.1.0" />
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
 		<PackageReference Include="IFox.Basal.Source" Version="0.7.1">
 			<PrivateAssets>all</PrivateAssets>
@@ -45,11 +48,16 @@
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
+		<PackageReference Include="MediatR" Version="12.1.1" />
+		<PackageReference Include="MediatR.Extensions.Autofac.DependencyInjection" Version="11.2.0" />
 		<PackageReference Include="NPOI" Version="2.6.1" />
 
 	</ItemGroup>
 
 	<ItemGroup>
+		<Reference Include="CadCommandation">
+		  <HintPath>..\CadCommandation\bin\Debug\CadCommandation.dll</HintPath>
+		</Reference>
 		<Reference Include="Microsoft.CSharp" />
 		<Reference Include="System.Web" />
 		<Reference Include="System.Web.Extensions" />
