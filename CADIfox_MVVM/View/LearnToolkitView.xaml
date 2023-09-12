@@ -1,0 +1,50 @@
+﻿<Window x:Class="CADIfox_MVVM.View.LearnToolkitView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CADIfox_MVVM.View"
+        mc:Ignorable="d"
+        Title="LearnToolkitView" Height="450" Width="800" ShowInTaskbar="False"  Visibility="{Binding Visibility}">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Width" Value="100"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="36"/>
+            <RowDefinition Height="36"/>
+            <RowDefinition Height="36"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <Button Content="直线" ToolTip="画一条直线" Command="{Binding DrawLine}"/>
+            <Button Content="图层" ToolTip="新建一个图层" Command="{Binding CreateLayer}"/>
+            <Button Content="线型" ToolTip="新建一个线型" Command="{Binding CreateLineType}"/>
+            <Button Content="块" ToolTip="新建一个块" Command="{Binding CreateBlock}"/>
+            <Button Content="圆" ToolTip="新建圆" Command="{Binding CreateCircle}"/>
+            <Button Content="删除图元" ToolTip="请选择你需要删除的图元" Command="{Binding DeleteEntity}"/>
+            <Button Content="圆弧" ToolTip="创建一个圆弧" Command="{Binding CreateArc}"/>
+            <Button Content="多段线" ToolTip="创建一条多段线" Command="{Binding CreatePolyLine}"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Content="正方体" ToolTip="创建正方体" Command="{Binding CreateCube}"/>
+            <Button Content="五角星" ToolTip="创建五角星" Command="{Binding CreateStar}"/>
+            <Button Content="五角体" ToolTip="创建五角体" Command="{Binding CreateStarSoild}"/>
+            <Button Content="自动缩放" ToolTip="自动缩放" Command="{Binding AutoZoom}"/>
+            <Button Content="样条曲线" ToolTip="创建样条曲线" Command="{Binding CreateNurbs}"/>
+            <Button Content="圆锥" ToolTip="创建一个圆锥" Command="{Binding CreateCone}"/>
+            <Button Content="获取内轮廓" ToolTip="获取内轮廓" Command="{Binding GetTraceBoundary}"
+                    CommandParameter="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}"/>
+            <Button Content="沿直线创建" ToolTip="选择一条直线" Command="{Binding CreatAlong}" 
+                    CommandParameter="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
+            <Button Content="获取外轮廓" ToolTip="获取外轮廓" Command="{Binding GetOutBoundary}"
+                    CommandParameter="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}"/>
+            <Button Content="数字显示" ToolTip="输入一堆数字" Command="{Binding CreateDigital}"
+                    CommandParameter="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}"/>
+        </StackPanel>
+    </Grid>
+</Window>

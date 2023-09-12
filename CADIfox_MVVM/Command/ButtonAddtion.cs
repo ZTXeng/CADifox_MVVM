@@ -34,7 +34,8 @@ namespace CADIfox_MVVM.Command
                 var panel = AddPanel(tab, "上清");
                 var path = Path.GetDirectoryName(typeof(ButtonAddtion).Assembly.Location);
                 var photoPath = Path.Combine(Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(path))), "Pic", "奶茶.png");
-                var button = CreateRibbonButton(panel, "工具", "AddButton ", photoPath);
+                var button = CreateRibbonButton(panel, "表格", "AddButton ", photoPath);
+                var button2 = CreateRibbonButton(panel, "工具", "Learn ", photoPath);
                 ComponentManager.ItemInitialized -= ComponentManager_ItemInitialized;
             }
         }

@@ -15,7 +15,6 @@ namespace CADIfox_MVVM.ViewModel
     public class ShowExcelViewModel : ViewModelBase<ShowExcelModel>
     {
         public IRelayCommand FileSelect { get; set; }
-        public IRelayCommand FileTest { get; set; }
 
 
         public ShowExcelViewModel(Document doc)
@@ -23,7 +22,6 @@ namespace CADIfox_MVVM.ViewModel
             Model = new ShowExcelModel();
 
             FileSelect = new RelayCommand(OnFileSelect);
-            FileTest = new RelayCommand(OnFileTest);
         }
 
         public ShowExcelViewModel()
@@ -43,12 +41,6 @@ namespace CADIfox_MVVM.ViewModel
                 Model.DataTables = ExcelToData.ReadExcelDataTbales(Model.FilePath, true);
                 Model.CurrentDataTable = Model.DataTables.First();
             }
-        }
-
-        private async void OnFileTest()
-        {
-            var request = new WritLineRequest();
-            await _mediator.Send(request);
         }
     }
 }

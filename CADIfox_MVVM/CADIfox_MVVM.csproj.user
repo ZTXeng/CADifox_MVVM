@@ -2,11 +2,17 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="View\LearnToolkitView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\ShowExcelView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="View\LearnToolkitView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="View\ShowExcelView.xaml">
       <SubType>Designer</SubType>
     </Page>

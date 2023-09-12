@@ -28,8 +28,8 @@ namespace ViewTest
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            var view = new ShowExcelView();
-            //view.Show();
+            var view = new LearnToolkitView();
+            view.Show();
         }
     }
 }

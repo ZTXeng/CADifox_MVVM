@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\mygithubcode\\CADifox_MVVM\\CADIfox_MVVM\\CADIfox_MVVM.csproj": {}
+  },
+  "projects": {
+    "F:\\mygithubcode\\CADifox_MVVM\\CADIfox_MVVM\\CADIfox_MVVM.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\mygithubcode\\CADifox_MVVM\\CADIfox_MVVM\\CADIfox_MVVM.csproj",
+        "projectName": "CADIfox_MVVM",
+        "projectPath": "F:\\mygithubcode\\CADifox_MVVM\\CADIfox_MVVM\\CADIfox_MVVM.csproj",
+        "packagesPath": "C:\\Users\\52465\\.nuget\\packages\\",
+        "outputPath": "F:\\mygithubcode\\CADifox_MVVM\\CADIfox_MVVM\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\52465\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "AutoCAD.NET": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[23.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            },
+            "IFox.Basal.Source": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.7.1, )"
+            },
+            "IFox.CAD.Source": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.7.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "MediatR.Extensions.Autofac.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.2.0, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

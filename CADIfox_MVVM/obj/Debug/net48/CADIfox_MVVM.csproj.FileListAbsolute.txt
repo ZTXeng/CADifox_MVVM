@@ -92,3 +92,5 @@ F:\mygithubcode\CADifox_MVVM\CADIfox_MVVM\bin\Debug\net48\Microsoft.Extensions.D
 F:\mygithubcode\CADifox_MVVM\CADIfox_MVVM\bin\Debug\net48\System.Diagnostics.DiagnosticSource.dll
 F:\mygithubcode\CADifox_MVVM\CADIfox_MVVM\bin\Debug\net48\CadCommandation.dll
 F:\mygithubcode\CADifox_MVVM\CADIfox_MVVM\bin\Debug\net48\CadCommandation.pdb
+F:\mygithubcode\CADifox_MVVM\CADIfox_MVVM\obj\Debug\net48\View\LearnToolkitView.g.cs
+F:\mygithubcode\CADifox_MVVM\CADIfox_MVVM\obj\Debug\net48\View\LearnToolkitView.baml

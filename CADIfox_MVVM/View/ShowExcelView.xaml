@@ -16,7 +16,6 @@
                 <TextBlock Width="420" VerticalAlignment="Center" Text="{Binding Model.FilePath}"/>
             </Border>
             <Button Height="34" Width="32" Command="{Binding  FileSelect}"/>
-            <Button Height="34" Width="32" Command="{Binding  FileTest}"/>
         </StackPanel>
         <DataGrid x:Name="ExcelData" Grid.Row="1" ItemsSource="{Binding Model.CurrentDataTable}"/>
     </Grid>
